@@ -1,5 +1,5 @@
 git config --global init.defaultBranch main
-
+git remote add origin git@github...
 git config --list *** prikazivanje konfiguracije gita za direktorijum
 git config --global --list *** isto kao i prijasnje samo za globalno
 ***Globalni mozes izbrisati u ~/.gitconfig
@@ -18,6 +18,8 @@ git config user.email "email"
 git config --global user.name "name"
 git config --global user.email "email"
 
+
+git push -u origin main
 
 git diff ***** nalazi razliku izmedju fajlova koji su promjenjeni
 
