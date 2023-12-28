@@ -1,0 +1,55 @@
+git config --global init.defaultBranch main
+
+git config --list *** prikazivanje konfiguracije gita za direktorijum
+git config --global --list *** isto kao i prijasnje samo za globalno
+***Globalni mozes izbrisati u ~/.gitconfig
+
+
+git init ***** stvaranje lokalnog repozitorijuma
+
+
+git add <fajl> ***** dodavanje fajla za pracenje
+git rm --cached <fajl> ***** uklanjanje fajla sa pracenja
+
+1.
+git config user.name "name"
+git config user.email "email"
+2. nalazi se u ~/.gitconfig
+git config --global user.name "name"
+git config --global user.email "email"
+
+
+git diff ***** nalazi razliku izmedju fajlova koji su promjenjeni
+
+FAJL .gitignore
+
+
+
+git restore --staged <fajl> ***** taj fajl se nece poslati na git
+
+
+
+git rm <fajl>
+git restore <fajl>
+
+
+
+git log ***** ovo je izvjestaj logova
+
+
+
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-keyscan github.com >> ~/.ssh/known_hosts
+gh auth login
+
+ssh -T git@github.com
+
+
+
+
+
+
+man ls | col -b > ls.txt
